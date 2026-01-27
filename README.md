@@ -1,2 +1,2 @@
 # BANKING-FINANCIAL-SYSTEMS-core-banking-vibes-
-BANKING / FINANCIAL SYSTEMS (core banking vibes)
+Credit Risk Scoring Platform
