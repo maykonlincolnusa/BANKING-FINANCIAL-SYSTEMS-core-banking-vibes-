@@ -57,6 +57,27 @@ Portfolio risk monitoring and provisioning support
 
 The platform emphasizes reproducibility, model governance, business rules integration, and safe deployment.
 
+Tech Stack (recommended)
+
+Orchestration: Airflow / Dagster
+
+Storage: S3 / MinIO, Postgres, ClickHouse
+
+Feature Store: Feast or custom Redis/ClickHouse layers
+
+Experiment tracking & registry: MLflow
+
+Model training: scikit-learn, LightGBM, XGBoost, or PyTorch
+
+Serving: BentoML / Seldon / KFServing
+
+Stream: Kafka, Debezium (CDC)
+
+Infra: Docker, Kubernetes (Helm), Terraform
+
+Monitoring: Prometheus, Grafana, ELK, Evidently (drift)
+
+Explainability: SHAP
 Key Features
 
 Data ingestion from core banking, credit bureaus, and alternative sources
